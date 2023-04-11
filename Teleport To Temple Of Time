@@ -1,6 +1,1 @@
-local args = {
-    [1] = "RaceV4Progress",
-    [2] = "Teleport"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("RaceV4Progress","Teleport")
